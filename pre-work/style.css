@@ -1,0 +1,131 @@
+* {
+    font-family: sans-serif
+}
+
+#container {
+    width: 1000px;
+    height: 900px;
+    margin: 0px auto;
+    background-color: black;
+}
+
+#nav {
+    min-height: 130px;
+    background-color: black;
+    color: white;
+    
+}
+    #logo {
+        color: white;
+        display: inline-block;
+        width: 350px;
+        padding-left: 40px;
+        margin-top: 50px;
+        font-size: 34px;
+    }
+
+    #nav ul, li{
+        display: inline-block;
+        margin-left: 40px;
+    }
+
+#main {
+    background-color: white;
+    width: 980px;
+    margin: auto;
+    height: 690px;
+}
+    #main img{
+        width: 930px;
+        margin: 25px 25px 25px 25px;
+    }
+
+    #main #highlights {
+        width: 291px;
+        height: 240px;
+        background-color: rgb(59, 59, 212);
+        color: white;
+        margin-left: 25px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #highlights h2{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #highlights p{
+        margin: 15px;
+        vertical-align: top;
+        font-size: 12px;
+        margin-top: 3px;
+    }
+
+    #highlights #button{
+        width: 130px;
+        height: 33px;
+        display: block;
+        margin: 10px;
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        background-color: rgb(78, 151, 247);
+    }
+
+    #main #bottom {
+        width: 291px;
+        height: 260px;
+        margin-left: 25px;
+        display: inline-block;
+        vertical-align: top;
+  
+    }
+
+    #bottom img {
+        width: 291px;
+        margin: 0px;
+    }
+
+    #main #wordy {
+        width: 291px;
+        height: 230px;
+        margin-left: 25px;
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 30px;
+        font-size: 12px;
+    }
+
+    #wordy a{
+        font-size: 16px;
+    }
+
+    #review {
+        background-color: lightblue;
+        width: 291px;
+        height: 100px;
+        font-style: italic;
+    }
+
+#footer {
+    background-color: lightblue;
+    height: 80px;
+    margin: auto;
+    width: 980px;
+    color: darkblue;
+}
+
+#footer ul{
+    margin: 25px 0px 0px 170px;
+}
+
+#footer ul, li{
+    display: inline-block;
+}
+
+    #footer span {
+        color: blue;
+    }
